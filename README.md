@@ -74,4 +74,3 @@ This project is licensed under the MIT License.
 ---
 
 Created by [Abdul](https://github.com/git-abdul)
-```
