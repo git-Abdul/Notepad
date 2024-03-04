@@ -41,10 +41,10 @@ export default function Home() {
           <div className="flex items-center">
             <img
               src="https://i.postimg.cc/15RNW37X/logo.png"
-              className="h-8 m-8 mr-3"
+              className="h-10 m-8 mr-3"
               alt="Logo"
             />
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-3xl font-poppins font-semibold whitespace-nowrap dark:text-white">
               Notepad
             </span>
           </div>
@@ -52,24 +52,24 @@ export default function Home() {
             <button
               type="button"
               onClick={() => handleOpenNotes()}
-              className="transition ease-in-out delay-150 text-black bg-amber-400 hover:-translate-y-1 hover:scale-110 hover:bg-orange-400 duration-300 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-md px-4 py-2 text-center mt-4 md:mt-0"
+              className="transition ease-in text-black font-poppins bg-amber-400 hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-md text-md px-4 py-2 text-center mt-4 md:mt-0"
             >
               <img
                 src="https://www.svgrepo.com/show/532994/plus.svg"
                 alt="Open notes"
-                className="h-5 w-5 inline-block mr-2"
+                className="h-5 w-5 mr-2 inline-block mb-[2px]"
               />
               Open
             </button>
             <button
               type="button"
               onClick={() => handleSaveAsNotes()}
-              className="transition ease-in-out delay-150 text-black bg-amber-400 hover:-translate-y-1 hover:scale-110 hover:bg-orange-400 duration-300 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-md px-4 py-2 text-center mt-4 md:mt-0"
+              className="transition ease-in text-black font-poppins bg-amber-400 hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-md text-md px-4 py-2 text-center mt-4 md:mt-0"
             >
               <img
                 src="https://www.svgrepo.com/show/491409/floppy-disk.svg"
                 alt="Save notes as..."
-                className="h-5 w-5 inline-block mr-2"
+                className="h-5 w-5 inline-block mr-2 mb-[2px]"
               />
               Save as
             </button>
@@ -80,9 +80,9 @@ export default function Home() {
         ref={textareaRef}
         value={noteText}
         onChange={handleNoteChange}
-        className="w-full h-screen bg-zinc-900 text-white focus:border-none border-1 focus:ring-0 ring-0 border-black font-mono p-10"
+        className="w-full h-screen bg-zinc-900 text-white focus:border-none border-1 focus:ring-0 ring-0 border-black font-mono p-10 mx-3"
         style={{ fontFamily: "Lucida Console, monospace" }}
-        placeholder="Type your notes here..."
+        placeholder="Start typing..."
       ></textarea>
     </main>
   );
