@@ -57,7 +57,7 @@ export default function Home() {
               <img
                 src="https://www.svgrepo.com/show/532994/plus.svg"
                 alt="Open notes"
-                className="h-5 w-5 mr-2 inline-block mb-[2px]"
+                className="h-5 w-5 mr-2 inline-block mb-[2px] text-white"
               />
               Open
             </button>
@@ -69,9 +69,9 @@ export default function Home() {
               <img
                 src="https://www.svgrepo.com/show/491409/floppy-disk.svg"
                 alt="Save notes as..."
-                className="h-5 w-5 inline-block mr-2 mb-[2px]"
+                className="h-5 w-5 inline-block mr-2 mb-[2px] text-white"
               />
-              Save as
+              Save
             </button>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function Home() {
         ref={textareaRef}
         value={noteText}
         onChange={handleNoteChange}
-        className="w-full h-screen bg-transparent text-white focus:border-none border-1 focus:ring-0 ring-0 border-black font-mono p-10 mx-3"
+        className="w-full h-screen bg-transparent text-black focus:border-none border-1 focus:ring-0 ring-0 border-black font-mono p-10 mx-3"
         style={{ fontFamily: "Lucida Console, monospace" }}
         placeholder="Start typing..."
       ></textarea>
