@@ -52,7 +52,7 @@ export default function Home() {
             <button
               type="button"
               onClick={() => handleOpenNotes()}
-              className="transition ease-in text-black font-poppins bg-amber-400 hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-md text-md px-4 py-2 text-center mt-4 md:mt-0"
+              className="transition ease-in text-white font-inter bg-black hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-md text-md px-3 py-2 text-center mt-4 md:mt-0"
             >
               <img
                 src="https://www.svgrepo.com/show/532994/plus.svg"
@@ -64,7 +64,7 @@ export default function Home() {
             <button
               type="button"
               onClick={() => handleSaveAsNotes()}
-              className="transition ease-in text-black font-poppins bg-amber-400 hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-md text-md px-4 py-2 text-center mt-4 md:mt-0"
+              className="transition ease-in text-white font-inter bg-black hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-md text-md px-3 py-2 text-center mt-4 md:mt-0"
             >
               <img
                 src="https://www.svgrepo.com/show/491409/floppy-disk.svg"
@@ -80,7 +80,7 @@ export default function Home() {
         ref={textareaRef}
         value={noteText}
         onChange={handleNoteChange}
-        className="w-full h-screen bg-zinc-900 text-white focus:border-none border-1 focus:ring-0 ring-0 border-black font-mono p-10 mx-3"
+        className="w-full h-screen bg-transparent text-white focus:border-none border-1 focus:ring-0 ring-0 border-black font-mono p-10 mx-3"
         style={{ fontFamily: "Lucida Console, monospace" }}
         placeholder="Start typing..."
       ></textarea>
