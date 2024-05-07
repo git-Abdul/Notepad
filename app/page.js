@@ -52,25 +52,15 @@ export default function Home() {
             <button
               type="button"
               onClick={() => handleOpenNotes()}
-              className="transition ease-in text-white font-inter bg-black hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-md text-md px-3 py-2 text-center mt-4 md:mt-0"
+              className="transition ease-in text-white font-poppins bg-black hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 rounded-md text-sm px-3 py-2 text-center mt-4 md:mt-0"
             >
-              <img
-                src="https://www.svgrepo.com/show/532994/plus.svg"
-                alt="Open notes"
-                className="h-5 w-5 mr-2 inline-block mb-[2px] text-white"
-              />
               Open
             </button>
             <button
               type="button"
               onClick={() => handleSaveAsNotes()}
-              className="transition ease-in text-white font-inter bg-black hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-md text-md px-3 py-2 text-center mt-4 md:mt-0"
+              className="transition ease-in text-white font-poppins bg-black hover:-translate-y-1 duration-150 focus:ring-4 focus:outline-none focus:ring-orange-300 rounded-md text-sm px-3 py-2 text-center mt-4 md:mt-0"
             >
-              <img
-                src="https://www.svgrepo.com/show/491409/floppy-disk.svg"
-                alt="Save notes as..."
-                className="h-5 w-5 inline-block mr-2 mb-[2px] text-white"
-              />
               Save
             </button>
           </div>
